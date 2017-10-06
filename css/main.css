@@ -1,0 +1,67 @@
+/*Selecting all body and span tags*/
+body, span{
+	color: white;
+	background-color: #000;
+}
+/*Selecting all unordered lists*/
+ul {
+	background-color: none;
+	margin: 5px 10px;
+	padding:2.5px 5px;
+	border: 1px solid #000;
+	display: inline-block;
+	float: right;
+}
+/*Selecting all list items*/
+li {
+	color: #fff;
+	margin: 3px 20px;
+	padding: 2px;
+	font-size: 20px;
+	display: inline-block;
+}
+/*Putting a hover style to navigation list items*/
+li:hover {
+	background-color: #bfbfbf;
+	cursor: pointer;
+	text-decoration: underline;
+}
+/*selecting class nav for the navigation bar*/
+.nav {
+	text-decoration: none;
+	position: absolute;
+	margin-left: 400px;
+}
+h1 {
+	position: relative;
+	margin-left: 400px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+}
+div {
+	float: left;
+	width: 50%;
+
+}
+
+.box {
+	display: inline;
+}
+p {
+	position: relative;
+}
+.logo {
+	float: left;
+	display: inline-block;
+	margin-left: 200px;
+}
+img {
+	margin-left: 75px;
+}
+#smallheading {
+	margin-left: 400px;
+}
+input {
+	width: 200px;
+	margin-top: 10px;
+}
